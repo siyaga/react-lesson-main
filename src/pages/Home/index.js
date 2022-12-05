@@ -7,7 +7,7 @@ function Home() {
 
   return (
     <div>
-      <section className='content-container'>
+      <section className='content-containerrr'>
         <Content data={data} />
         <Sidebar />
       </section>

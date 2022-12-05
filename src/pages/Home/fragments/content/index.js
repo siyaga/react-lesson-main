@@ -6,9 +6,9 @@ function Content (prop) {
     <section>
       <div class="showcase">
       <h1 >Welcome</h1>
-      <div class="container showcase-inner">
+      <div class="containerr showcase-inner">
       <p>{prop.data}</p>
-      <a href="#" class="btn">Read More</a>
+      <a href="#" class="btnbtn">Read More</a>
       </div>
       </div>
     </section>

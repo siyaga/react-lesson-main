@@ -4,6 +4,7 @@ import Feature from './pages/Feature';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Profile from './pages/Profile';
+import Product from './pages/Product';
 import Home from './pages/Home';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     if (menu === 1) {return <Home/>}
     else if(menu === 2) {return <Feature />}
     else if(menu === 3) {return <Profile />}
+    else if(menu === 4) {return <Product />}
   }
 
   return (

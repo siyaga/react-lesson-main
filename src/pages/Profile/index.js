@@ -1,4 +1,5 @@
 import Content from './fragments/content';
+import Sidebar from './fragments/sidebar/sidebar';
 import './styles.css';
 
 function Profile() {
@@ -6,8 +7,9 @@ function Profile() {
 
   return (
     <div>
-      <section className='content-container'>
+      <section className='content-containerr'>
         <Content data={data} />
+        <Sidebar />
       </section>
     </div>
   );
